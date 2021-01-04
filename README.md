@@ -1,5 +1,43 @@
 # Angular8demo
 
+
+## Install Nodejs
+
+
+```bash
+# Using Mac
+brew install node@15
+
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_15.x | bash -
+apt-get install -y nodejs
+
+```
+
+
+output:
+
+
+```bash
+node -v
+npm -v
+# v15.4.0
+# 7.0.15
+```
+
+## Install Angular 8
+
+```
+npm install -g @angular/cli@10.0.5
+
+```
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
