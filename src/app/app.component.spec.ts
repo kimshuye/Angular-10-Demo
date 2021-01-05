@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular8demo'`, () => {
+  it(`should have as title 'angular10demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular8demo');
+    expect(app.title).toEqual('angular10demo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular8demo app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular10demo app is running!');
   });
 });
