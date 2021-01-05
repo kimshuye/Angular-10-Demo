@@ -1,4 +1,4 @@
-# Angular8demo
+# angular10demo
 
 
 ## Install Nodejs
@@ -80,6 +80,11 @@ rxjs                              6.5.5
 typescript                        3.9.7
 webpack                           4.43.0
 
+```
+
+Add the following to ```~/.npmrc``` (same directory as package.json):
+```
+engine-strict=true
 ```
 
 
